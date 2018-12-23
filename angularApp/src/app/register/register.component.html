@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Register Here</h2>
+        <form>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" [(ngModel)]="registerUserData.email">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password" [(ngModel)]="registerUserData.password">
+          </div>
+          
+          <button (click)="registerUser()" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      </div>
+    </div>
+    
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <div class="card rounded-0">
+        <div class="car-header">
+          <h3 class="mb-0">Register</h3>
+        </div>
+        <div class="card-body">
+          <form class="form">
+            <div class="form-group">
+              <label for="">Email</label>
+            <input type="text" class="from-control rounded-0" required>            
+          </div>
+          <div class="form-group">
+            <label for="">Password</label>
+          <input type="text" class="from-control rounded-0" required>            
+        </div>
+        <button type="button" class="btn btn-primary float-right">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> -->
